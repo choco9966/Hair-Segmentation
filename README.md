@@ -67,12 +67,20 @@ optional arguments:
 - heavy : ganhackerton을 무겁게 학습한 가중치
 - celeb : CelebAMask를 학습한 가중치 
 
+## Inference model 
+
+```
+python inference.py [--img_size IMG_SIZE] [--num NUM] 
+
+optional arguments:
+    --img_size:           size image input, default 512
+    --num:                demo image number, default 1
+```
+
+
 ## Result  
 
-|          헤어스타일 변환 경진대회(korean)           | CelebAMask-HQ |
-| :--------------------------------------: | :-----------: |
-| ![](https://drive.google.com/uc?export=view&id=1rvsVO5kko-o9krn35vwl-YhFEid111il) |               |
-
+![](https://github.com/choco9966/Hair-Segmentation/blob/main/result/output.jpg?raw=true)
 
 |   	| Encoder        	| Decoder    	| Dice   	| Data   	|
 |---	|----------------	|------------	|--------	|--------	|
