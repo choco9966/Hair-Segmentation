@@ -80,7 +80,7 @@ optional arguments:
 
 ## Result  
 
-![](https://github.com/choco9966/Hair-Segmentation/blob/main/result/output.jpg?raw=true)
+![]()
 
 |   	| Encoder        	| Decoder    	| Dice   	| Data   	|
 |---	|----------------	|------------	|--------	|--------	|
