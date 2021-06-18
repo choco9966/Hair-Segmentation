@@ -80,7 +80,7 @@ optional arguments:
 
 ## Result  
 
-![]()
+![](https://drive.google.com/uc?export=view&id=18y9s2TZBXI6SlN_d0d3vks8tmnkmC8Mj)
 
 |   	| Encoder        	| Decoder    	| Dice   	| Data   	|
 |---	|----------------	|------------	|--------	|--------	|
