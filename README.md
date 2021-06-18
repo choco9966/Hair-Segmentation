@@ -16,6 +16,8 @@
 
 **CelebAMask-HQ** 데이터의 경우 [링크](https://drive.google.com/open?id=1badu11NqxGf6qM3PTTooQDJvQbejgbTv)에서 다운받아줄 수 있습니다. 2.9G의 데이터를 다운받아주고 `data` 폴더 내에 저장 해주면 됩니다. 그리고 preprocess-CelebAMask-HQ.ipynb를 실행시켜줍니다. 
 
+두 개의 파일에 대한 이미지를 보시려면 visualization.ipynb을 확인해주시기 바랍니다. 
+
 **Data structure**
 ```
 ├── data 
@@ -67,9 +69,9 @@ optional arguments:
 
 ## Result  
 
-|헤어스타일 변환 경진대회(korean)|CelebAMask-HQ|
-|:---:|:---:|
-|![](https://drive.google.com/uc?export=view&id=1rvsVO5kko-o9krn35vwl-YhFEid111il)||
+|          헤어스타일 변환 경진대회(korean)           | CelebAMask-HQ |
+| :--------------------------------------: | :-----------: |
+| ![](https://drive.google.com/uc?export=view&id=1rvsVO5kko-o9krn35vwl-YhFEid111il) |               |
 
 
 |   	| Encoder        	| Decoder    	| Dice   	| Data   	|
