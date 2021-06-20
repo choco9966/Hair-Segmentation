@@ -138,7 +138,6 @@ def test():
     images = or_images.astype(np.float32)
     images = get_transforms(data='valid')(image=images)['image'].reshape(1, 3, 512, 512)
     masks = encoder(images)
-    masks = encoder(images)
     masks[masks > 0] = 1
     masks[masks <= 0] = 0
     masks = masks[0][0].detach().numpy().astype(np.int32)
