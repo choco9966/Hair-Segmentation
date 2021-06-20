@@ -137,6 +137,7 @@ def test():
     or_images = cv2.cvtColor(or_images, cv2.COLOR_BGR2RGB)
     images = or_images.astype(np.float32)
     images = get_transforms(data='valid')(image=images)['image'].reshape(1, 3, 512, 512)
+    encoder.eval()
     masks = encoder(images)
     masks[masks > 0] = 1
     masks[masks <= 0] = 0
