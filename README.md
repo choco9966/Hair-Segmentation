@@ -3,6 +3,8 @@
 - Encoder : efficientnet, se_resnext
 - Decoder : Unet, FPN, LinkNet, DeepLabv3+, Unet++
 
+※ 참고 : 대회 규정상 **헤어스타일 변환 경진대회**으로 학습된 모델은 사용하면 안된다고 합니다. Google Drive에도 해당 가중치는 모두 제거해두었습니다. 
+
 ## Prerequisites
 `pip install -r requirements.txt` 
 
