@@ -11,6 +11,7 @@
 # ====================================================
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0, 1' # specify GPUs locally
+from utils import CFG
 
 OUTPUT_DIR = './submission'
 if not os.path.exists(OUTPUT_DIR):
@@ -23,7 +24,6 @@ import argparse
 
 def get_args():
     parser = argparse.ArgumentParser(description='Hair Segmentation')
-    parser.add_argument('--data_type', type=str, default='korean') # korean, celeb
     parser.add_argument('--img_size', type=int, default=512)
     parser.add_argument('--num_workers', type=int, default=0)
     parser.add_argument('--encoder_type', type=str, default='timm-efficientnet-b0')
