@@ -1,5 +1,5 @@
 ## Hair Segmentation 
-해당 레포지토리는 인공지능 온라인 경진대회 - 한국인 헤어스타일 세그멘테이션 대회 준비를 위한 깃허브입니다. 총 2가지의 데이터셋에 대해서 각각 pretrained 모델을 만들어두었습니다. 사용된 모델들의 경우 https://github.com/qubvel/segmentation_models.pytorch에 있는 주요 SOTA 모델들을 사용했습니다. 
+해당 레포지토리는 인공지능 온라인 경진대회 - 한국인 헤어스타일 세그멘테이션 대회 준비를 위한 깃허브입니다. 총 2가지의 데이터셋에 대해서 각각 pretrained 모델을 만들어두었습니다. 사용된 모델들의 경우 https://github.com/qubvel/segmentation_models.pytorch 에 있는 주요 SOTA 모델들을 사용했습니다. 
 - Encoder : efficientnet, se_resnext
 - Decoder : Unet, FPN, LinkNet, DeepLabv3+, Unet++
 
