@@ -3,6 +3,7 @@ import argparse
 # Directory settings
 # ====================================================
 import os
+from utils import CFG
 os.environ['CUDA_VISIBLE_DEVICES'] = '0, 1' # specify GPUs locally
 
 OUTPUT_DIR = './submission'
