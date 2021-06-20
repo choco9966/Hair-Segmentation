@@ -88,7 +88,7 @@ optional arguments:
 | 2 	| EfficientNetB0 	| FPN        	| 0.9626 	| Korean 	|
 | 3 	| EfficientNetB0 	| LinkNet    	| 0.9597 	| Korean 	|
 | 4 	| EfficientNetB0 	| DeepLabv3+ 	| 0.9625 	| Korean 	|
-| 5 	| EfficientNetB0 	| Unet       	| 0.0000 	| Celeb  	|
+| 5 	| EfficientNetB0 	| Unet       	| 0.9657 	| Celeb  	|
 | 6 	| EfficientNetB0 	| FPN        	| 0.0000 	| Celeb  	|
 | 7 	| EfficientNetB0 	| LinkNet    	| 0.0000 	| Celeb  	|
 | 8 	| EfficientNetB0 	| DeepLabv3+ 	| 0.0000 	| Celeb  	|
