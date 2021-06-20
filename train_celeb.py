@@ -20,7 +20,6 @@ light = True
 dataset_path = './data/CelebAMask-HQ'
 
 import argparse
-from utils import CFG 
 
 def get_args():
     parser = argparse.ArgumentParser(description='Hair Segmentation')
